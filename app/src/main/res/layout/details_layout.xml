@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_progress"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/name"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/teacher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/teacher"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/type"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/address"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/week"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/week"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+</LinearLayout>

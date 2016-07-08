@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 选中但是没有点击 -->
+    <item android:state_pressed="false"  android:color="#53ABF6"/>
+    
+    <!-- 点击变色 -->
+    <item android:state_pressed="true" android:color="#A6D4FA"></item>
+    
+    <item android:color="#00ffffff"></item>
+
+</selector>

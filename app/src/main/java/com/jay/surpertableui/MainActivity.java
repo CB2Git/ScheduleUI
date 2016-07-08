@@ -1,7 +1,5 @@
 package com.jay.surpertableui;
 
-import java.util.ArrayList;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
@@ -24,6 +22,8 @@ import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+
+import java.util.ArrayList;
 
 public class MainActivity extends Activity {
 	private ArrayList<CourseBean> mCourse;
@@ -245,8 +245,7 @@ public class MainActivity extends Activity {
 
 	/**
 	 * 弹出窗口，显示课程详细信息
-	 * 
-	 * @param bean
+	 *
 	 */
 	public void showCouseDetails(CourseBean bean) {
 		AlertDialog.Builder builder = new Builder(this);

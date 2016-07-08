@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F7F7F7"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/changeWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="第一周"
+            android:textColor="#3583BD"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/arrow_down" />
+    </LinearLayout>
+
+    <!-- 顶部星期一二三四五六七 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeCDF5FD"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="@dimen/left_width"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周一"
+            android:textColor="@color/font"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周二"
+            android:textColor="@color/font"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周三"
+            android:textColor="@color/font"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周四"
+            android:textColor="@color/font"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周五"
+            android:textColor="@color/font"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周六"
+            android:textColor="@color/font"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/boder"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="周日"
+            android:textColor="@color/font"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <!-- 下面是一个横向的8个线性布局(1+7 1是左边的课程编号) -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <!-- 左边的课程编号 -->
+
+            <LinearLayout
+                android:id="@+id/leftNo"
+                android:layout_width="@dimen/left_width"
+                android:layout_height="wrap_content"
+                android:background="#eeCDF5FD"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <!-- 一二三四五六七的课 -->
+
+            <LinearLayout
+                android:id="@+id/monday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tuesday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wednesday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/thursday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/firday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/saturday"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/weekend"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
